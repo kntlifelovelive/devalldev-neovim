@@ -1,19 +1,20 @@
 # Neovim config learn create 
 
 
-## Remov install nvim backup
+### Remov install nvim backup
 
 ```bash
 	
-	rm -rf ~/.local/share/vnim 
+rm -rf ~/.local/state/nvim
+rm -rf ~/.local/share/nvim 
+rm -rf ~/.cache/nvim
 
-	rm -rf ~/.local/state/nvim  
 
-	rm -rf ~/.config/nvim 
+rm -rf ~/.config/nvim
 
 
 ```
-
+### Install Neovim configration: 
 
 ```bash
 
